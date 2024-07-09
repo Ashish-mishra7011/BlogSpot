@@ -18,6 +18,7 @@ export default function RTE({name, control, label, defaultValue =""}) {
         apiKey={conf.rteId}
           init={{
             initialValue: defaultValue,
+             referrer_policy: 'origin',
             height: 500,
             menubar: true,
             plugins: [
